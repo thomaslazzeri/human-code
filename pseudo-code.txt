@@ -12,17 +12,71 @@ rifornimenti
 lista
 supermercato
 scaffali
-crocchette Ricky
-coupon scadenza fine mese
-contanti portafoglio
-bramare snack extra
+crocchette_Ricky
+coupon_scadenza_fine_mese
+contanti_portafoglio
+bramare_snack extra
 
 obiettvi:
--fare la spesa
--segnare sulla lista
--andare al supermercato
--verificare sui scaffali
--prendere crocchette Ricky
--usare coupon entro fine mese
--per il resto usare i contanti a disposizione
--se non mi viene voglia di prendere degli snack extra
+- fare la spesa
+- segnare sulla lista
+- andare al supermercato
+- verificare sugli scaffali
+- prendere crocchette Ricky
+- usare coupon entro fine mese
+- per il resto usare i contanti a disposizione
+- se non mi viene voglia di prendere degli snack extra
+
+1. fare la spesa
+   segnando sulla lista le cose da prendere
+2. andare al supermercato
+3. SE sugli scaffali ci sono le crocchette per Ricky:
+     ALLORA prenderle
+     ALTRIMENTI tornare al punto 3.
+4. usare coupon:
+   SE scaduti niente da fare
+   SE no usarli
+5. usare contanti per il resto della spesa:
+   SE prendo gli snack extra
+   ALLORA tornare al punto 4.
+
+spesa
+[
+  'lista',
+  'andare al supermercato',
+]
+
+oggetti
+[
+  'scaffali',
+  'crocchette_Ricky',
+]
+
+cose a disposizione
+[
+  'lista',
+  'coupon',
+  'contanti',
+]
+
+extra
+[
+  'snack_extra',
+]
+
+interazione 1:
+spesa
+lista
+interazione 2:
+scaffali
+crocchette Ricky
+ci sono?
+si/no
+interazione 3:
+coupon
+scaduti?
+si/no
+interazione 4:
+contanti
+extra?
+si/no
