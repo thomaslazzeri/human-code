@@ -1,0 +1,1 @@
+Creare riassunti come esercizio per programmazione.
