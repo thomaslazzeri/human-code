@@ -90,33 +90,19 @@ Dopo averle sfilate dal pacchetto, me le passo tra le mani controllando nell’a
 quelle nuove, mentre le doppie le metto in un mazzetto a parte. Ormai ne sto accumulando diverse, 
 spero di riuscire a combinare diversi scambi sabato con i miei amici!
 
-pacchetto
-figurina
-sfilate_dal_pacchetto
-album
-attaccare_quelle_nuove
-doppie__mazzo_a_parte
-scambio_con_amici_quelle_che_ho_già
+lista_figurine
+album_figurine
+album_delle_doppie
+scambio_amici
 
-obiettvi:
-- aprire pacchetto nuovo
-- figurina rara
-- sfilare dal pacchetto
-- controllare nel album
-- attaccare quelle nuove
-- le doppie le metto in mazzetto a parte
-- scambio con amici quelle che ho già
+obiettivi:
+attaccare le figurine nuove
+scartare le doppie
+scambiare quelle in più
 
-1. pacchetto
-   lo apro:
-   SE 
-
-
-
-
-
-
-
-
-
+apro pacchetto
+PER OGNI figurina in lista_figurine
+SE la figurina è. già nell’album la scarto
+ALTRIMENTI la attacco nell'album_figurine
+scambio quelle tante che ho
 -----------------------------------------------
