@@ -293,4 +293,13 @@ obiettivi:
 assegnare il posto a sedere a tutti
 verificare che tutti abbiano il posto
 
-1.
+1. hanno tutti il posto_a_sedere?
+   PER OGNI persona:
+     vedere se hanno il posto_a_sedere
+     contare_i_posti:
+       SE tutti lo hanno
+       ALLORA si possono sedere
+       ALTRIMENTI (torno al punto 1)
+       FINCHE' tutti abbiano il posto a sedere
+       ALTRIMENTI fine
+-----------------------------------------------
