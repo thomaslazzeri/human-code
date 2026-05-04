@@ -212,3 +212,85 @@ comprare il libro a Silvia
 6. Ordinare una pizza
    Tu non hai fame?!
 
+Dopo una lunga giornata passata al pc, ho proprio voglia di concedermi 
+una bella pizza succulenta! Sì, ma quale? Fammi dare un occhio al listino… 
+Va beh, è inutile, tanto alla fine ordino sempre la stessa: una classica prosciutto e 
+funghi. La pizza arriva ancora fumante, chissà se riuscirò a mangiarla tutta!
+Di sicuro se ne avanzo una fetta devo ricordarmi di metterla in frigo, non come l’ultima volta!
+
+pizza
+guardare_il_listino
+tipo_di_pizza
+pizza_prosciutto_e_funghi
+mangiarla_tutta
+metterla_in_frigo
+
+obiettivi:
+ordinare una pizza
+scegliere il tipo da listino
+ordinare la pizza prosciutto e funghi
+mangiarla tutta
+il rimanente metterla in frigo
+
+1. ordinare pizza
+   guardare_il_listino:
+     scegliendo il tipo_di_pizza:
+     SE c'é la pizza_prosciutto_e_funghi
+     ALLORA prenderla
+     (SE no torno al punto 1)
+     FINCHE' non prendo la pizza_prosciutto_e_funghi
+2. SE non la finisco:
+     ALLORA metterla_in_frigo
+     SE no torno al punto 2
+     ALTRIMENTI fine
+-----------------------------------------------
+
+7. Scansionare un documento su più fogli fronte-retro
+   La pratica perduta
+
+Finalmente sono riuscito a ritrovare quella pratica che sembrava essere 
+svanita nel nulla! Che poi, possibile che nel 2021 ci siano ancora così tanti 
+fogli di carta in giro per l’ufficio?! Ora ci penso io: una bella scansione e 
+l’archiviamo in formato digitale, così la prossima volta so già dove andare a cercarla! 
+L’unica pecca è che lo scanner non ha il fronte-retro automatico e mi tocca farlo a mano. 
+Va beh, poco male, almeno sono pochi fogli!
+
+pratica
+scansione
+archiviare_in_formato_digitale
+scansionare_a_mano
+
+obbiettivi:
+scansionare la pratica
+metterla in formato digitale
+scansionare a mano
+
+1. pratica:
+   scansionarla:
+     SE non va lo scanner
+     ALLORA scansionare_a_mano
+     ALTRIMENTI (torno al punto 1)
+     FINCHE' non l'ho fatto
+     ALTRIMENTI fine
+-----------------------------------------------
+
+8. Contare i posti a tavola di 2 in 2
+   Ci s(t)iamo tutti?
+
+Per il pranzo di Natale, diamo una mano a nonna per preparare la tavola: 
+zio Rino, la piccola Emy, zia Lucia e nonno Carlo… siamo davvero in tanti!
+Non sarà un pranzo formale, perciò non servono i segnaposto con i nomi, 
+però dobbiamo verificare che ci sia un posto per ciascuno. Per essere più rapidi 
+contiamo i posti a tavola di 2 in 2 e ci accorgiamo che avevamo dimenticato un posto!
+
+pranzo_di_natale
+tante_persone
+posto_a_sedere
+contare_i_posti
+posti_per_tutti
+
+obiettivi:
+assegnare il posto a sedere a tutti
+verificare che tutti abbiano il posto
+
+1.
