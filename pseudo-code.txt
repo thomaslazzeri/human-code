@@ -171,3 +171,44 @@ Potrei optare per una bella stilografica ma sicuramente sforo il budget,
 forse è meglio optare per un buon libro: un classico ma so che con lei vado sul sicuro!
 
 regalo
+lampada_da_tavolo
+consegna_della_lampada_da_tavolo
+stilografica
+sforo_il_budget
+libro
+
+obiettivi:
+fare il giusto regalo a Silvia
+calcolare i tempi e i costi
+
+fare il ragalo
+1. SE la consegna:
+   arriva in tempo
+   ALLORA le regalo la lampada_da_tavolo
+   ALTRIMENTI no
+2. SE non arriva lampada_da_tavolo
+   ALLORA prendo una stilografica:
+     SE non sforo_il_budget
+     SE no no
+3. SE non prendo la stilografica
+   ALLORA prendo un libro
+   SE no (torno al punto 1)
+   FINCHE' non prendo il libro
+
+   esercizio corretto???
+
+libro
+
+obiettivi:
+comprare il libro a Silvia
+
+1. comprare il libro:
+   SE non arriva
+   ALLORA (torno al punto 1)
+   FINCHE' non arriva il libro
+
+-----------------------------------------------
+
+6. Ordinare una pizza
+   Tu non hai fame?!
+
