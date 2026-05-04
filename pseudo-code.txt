@@ -27,8 +27,8 @@ obiettvi:
 - per il resto usare i contanti a disposizione
 - se non mi viene voglia di prendere degli snack extra
 
-1. fare la spesa
-   segnando sulla lista le cose da prendere
+fare la spesa
+segnando sulla lista le cose da prendere
 2. andare al supermercato
 3. SE sugli scaffali ci sono le crocchette per Ricky:
      ALLORA prenderle
@@ -101,8 +101,73 @@ scartare le doppie
 scambiare quelle in più
 
 apro pacchetto
-PER OGNI figurina in lista_figurine
-SE la figurina è. già nell’album la scarto
-ALTRIMENTI la attacco nell'album_figurine
-scambio quelle tante che ho
+1. PER OGNI figurina in lista_figurine
+   SE la figurina è. già nell’album la scarto
+   ALTRIMENTI la attacco nell'album_figurine
+2 scambio quelle tante che ho con amici
 -----------------------------------------------
+
+3 Scegliere cosa guardare su Netflix
+  Che barba, che noia, che noia, che barba!
+
+Perché ci si mette sempre un’ora a scegliere cosa guardare la sera? 
+Certo è difficile mettere d’accordo i gusti di tutti, 
+poi dipende anche in base al tempo (o al sonno) che abbiamo. 
+Delle volte si pensa di vedere quel bel film che ci hanno consigliato, 
+mentre altre volte si viene risucchiati da quella serie tv che ci tiene 
+incollati allo schermo. Che senso di vuoto quando poi finisce!
+
+film
+serie
+avere_tempo
+avere_sonno
+
+obbiettivi:
+scegliere film o serie da guardare
+
+1. scegliere film
+   PER OGNI film che passiamo:
+1.2 FINCHE' non troviamo quello che ci piace continuiamo a passare i film (torno al punto 1):
+    SE piace a tutti lo facciamo partire
+    ALTRIMENTI no
+2. SE non c'è il film:
+2.2 ALLORA vediamo se c'è una serie tv
+2.3 FINCHE' non troviamo quella che ci piace continuiamo a passare le serie tv (torno al punto 2.2):
+    ALTRIMENTI non la guardiamo
+3. tutto questo (punto 1.2, 2.2):
+   SE abbiamo tempo
+   SE non abbiamo sonno
+   ALTRIMENTI ci fermiamo
+-----------------------------------------------
+
+4. Preparare le lasagne alla bolognese
+   L’ingrediente segreto
+
+Chissà perché, per quanto ci provi e segua alla lettera la ricetta, 
+non vengono mai come quelle di nonna! Ho studiato alla perfezione 
+tutti gli ingredienti, le quantità, i tempi e modalità di cottura, 
+ma alla fine le lasagne della nonna sono sempre di un altro livello!
+
+lasagne
+
+obiettivi:
+fare le lasagne
+
+fare le lasagne
+1. PER OGNI lasagne che faccio:
+   FINCHE' non mi vengono buone le lasagne continuo (torno al punto 1)
+   ALLORA le mangio:
+   SE sono buone
+   SE no no
+-----------------------------------------------
+
+5. Comprare qualcosa su Amazon 
+   Il regalo perfetto
+
+Domani è il compleanno di Silvia e non le ho ancora comprato nulla! 
+Mi piacerebbe sorprenderla, so che le piaceva tanto quella lampada da tavolo 
+così particolare, però la consegna non è Prime e non arriverebbe mai in tempo! 
+Potrei optare per una bella stilografica ma sicuramente sforo il budget, 
+forse è meglio optare per un buon libro: un classico ma so che con lei vado sul sicuro!
+
+regalo
